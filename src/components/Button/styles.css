@@ -1,0 +1,46 @@
+.button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  padding: 0.5em 1em;
+  transition: all 0.2s ease;
+}
+
+.button--primary {
+  color: white;
+  background-color: #1ea7fd;
+}
+
+.button--primary:hover {
+  background-color: #1a91e0;
+}
+
+.button--secondary {
+  color: #333;
+  background-color: #e7e7e7;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.button--secondary:hover {
+  background-color: #d7d7d7;
+}
+
+.button--outline {
+  color: #1ea7fd;
+  box-shadow: rgba(30, 167, 253, 0.5) 0px 0px 0px 1px inset;
+  background-color: transparent;
+}
+
+.button--outline:hover {
+  box-shadow: rgba(30, 167, 253, 0.8) 0px 0px 0px 1px inset;
+  background-color: rgba(30, 167, 253, 0.05);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+} 
